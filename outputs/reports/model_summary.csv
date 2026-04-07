@@ -1,0 +1,10 @@
+,value
+model_type,Logistic Regression (sklearn)
+regularization,"L2, C=1.0"
+class_weight,balanced
+n_features,22
+n_train,14877
+n_test,4959
+test_auc,0.9841
+cv_auc_mean,0.984
+cv_auc_std,0.0004

@@ -1,0 +1,5 @@
+scenario,prob_tourism_attributed
+Baseline (current),0.9999997164539669
+Universal masking,0.9999996308092751
+Strict pre-screening (−80% symptomatic),0.999999698504524
+Combined: masking + strict screening,0.9999996074382296

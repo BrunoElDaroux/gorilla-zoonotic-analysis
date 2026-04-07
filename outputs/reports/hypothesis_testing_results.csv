@@ -1,0 +1,6 @@
+Test,Variable,Statistic,p-value,Effect size,Significant
+Kruskal Wallis,Age category vs respiratory illness events,55.8102,0.0,0.6525,✓
+Spearman Correlation,Symptomatic tourists ~ Gorilla illness (daily),-0.1176,0.0,-0.1176,✓
+Chi Square,Age category ~ Severe/fatal respiratory illness,294.0925,0.0,0.1351,✓
+Mann Whitney U,Tourism-linked vs background illness severity,24904593.5,0.0,0.1554,✓
+Spearman Correlation,Masking compliance ~ Gorilla respiratory events,0.25,0.51649,0.25,✗
