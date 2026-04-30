@@ -156,4 +156,5 @@ code .
 
 ## Author
 
-*Built as a conservation data science portfolio project.*
+*Bioinformatician with 12 months of professional research experience at the Dian Fossey Gorilla Fund, building computational pipelines across epidemiological modeling, machine learning survival analysis (Random Forest), spatial movement ecology (GeoPandas), and population genetics (CERVUS microsatellite genotyping).
+My technical foundation — Python, R, SQL, Bash, scikit-learn, Git — was built on real longitudinal biological datasets with direct policy consequences across Rwanda, Uganda, and DRC.*
