@@ -177,5 +177,4 @@ code .
 
 ## Author
 
-*Bioinformatician with 12 months of professional research experience at the Dian Fossey Gorilla Fund, building computational pipelines across epidemiological modeling, machine learning survival analysis (Random Forest), spatial movement ecology (GeoPandas), and population genetics (CERVUS microsatellite genotyping).
-My technical foundation — Python, R, SQL, Bash, scikit-learn, Git — was built on real longitudinal biological datasets with direct policy consequences across Rwanda, Uganda, and DRC.*
+*Bioinformatician with research experience at the Dian Fossey Gorilla Fund, building end-to-end computational pipelines across four domains: spatial movement ecology (GeoPandas, KDE, permutation testing), population genetics (CERVUS microsatellite LOD scoring, Queller-Goodnight kinship estimation), machine learning survival analysis (Random Forest, temporal cross-validation), and conservation epidemiology (logistic regression, SciPy hypothesis testing, temporal linkage). Technical stack: Python · R · SQL · scikit-learn · SciPy · GeoPandas · Git. All work is grounded in longitudinal biological datasets with direct conservation policy implications across the Virunga Massif — Rwanda, Uganda, and DRC.*
