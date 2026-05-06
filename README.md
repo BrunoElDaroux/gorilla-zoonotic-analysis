@@ -8,8 +8,6 @@
 
 This project analyzes the risk and patterns of **human-to-gorilla zoonotic disease transmission** in mountain gorilla (*Gorilla beringei beringei*) habitats, focusing on respiratory pathogen spillover events linked to ecotourism. The genomic similarity (~98.4% shared DNA, Scally et al., 2012) between humans and mountain gorillas makes gorillas exceptionally susceptible to human respiratory pathogens.
 
-> ⚠️ **Data Transparency Notice:** No comprehensive public dataset combining tourist respiratory screening records and gorilla health events exists. The datasets in this project are **synthetic but calibrated** to published epidemiological literature from the Virunga Massif and Bwindi Impenetrable Forest field studies. All parameters are referenced and documented in `data/README.txt`. This approach is standard in conservation epidemiology for modeling and protocol validation purposes.
-
 ---
 
 ## Research Questions
@@ -161,6 +159,12 @@ code .
 | Lonsdorf et al. (2006) *Anim Conserv* | Age/sex disease susceptibility in primates |
 | DFGFI Health Protocols (2019) | 7-meter rule, masking, pre-visit screening |
 
+---
+
+## ⚠️ **Data Transparency Notice:** 
+> No comprehensive public dataset combining tourist respiratory screening records and gorilla health events exists. The datasets in this project are **synthetic but calibrated** to published epidemiological literature from the Virunga Massif and Bwindi Impenetrable Forest field studies. All parameters are referenced and documented in `data/README.txt`. This approach is standard in conservation epidemiology for modeling and protocol validation purposes.
+>
+> For real gorilla data, apply at: [https://gorillafund.org/science/](https://gorillafund.org/what-we-do/scientific-research/)
 ---
 
 ## Skills Demonstrated
