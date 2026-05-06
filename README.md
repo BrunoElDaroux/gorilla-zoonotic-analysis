@@ -21,7 +21,7 @@ This project analyzes the risk and patterns of **human-to-gorilla zoonotic disea
 
 ---
 
-## Research Findings/ Conclusion
+## Research Findings
 
 1. Infants and elder individuals showed significantly higher incidence rates: with mother-to-infant transmission identified as a key      intra-group pathway distinct from human contact events.
 2. Environmental factors independently drive gorilla illness, providing evidence that not all gorilla respiratory events are attributable to tourism and informing more nuanced health policy.
