@@ -23,9 +23,25 @@ This project analyzes the risk and patterns of **human-to-gorilla zoonotic disea
 
 ## Research Findings
 
-1. Infants and elder individuals showed significantly higher incidence rates: with mother-to-infant transmission identified as a key      intra-group pathway distinct from human contact events.
-2. Environmental factors independently drive gorilla illness, providing evidence that not all gorilla respiratory events are attributable to tourism and informing more nuanced health policy.
-3. Findings directly support Dian Fossey Gorilla Fund health protocols — including the mandatory 7-meter visitor distance rule, pre-visit respiratory screening, and mask requirements — grounding evidence-based conservation health policy in empirical data.
+1. `Age Category is the Strongest Predictor of Respiratory Illness Susceptibility`
+A Kruskal-Wallis test confirmed that illness rates differ significantly across age categories (H = 55.81, p < 0.001, η² = 0.65 — large effect). Infants and silverbacks carried the highest illness burden. Pairwise Bonferroni-corrected comparisons identified the specific age groups driving this effect. This finding is consistent with immunological theory: infants lack acquired immunity while older silverbacks face immunosenescence compounding injury costs from dominance contests. 
+
+2. `Illness Severity is Significantly Associated with Age Category`
+A chi-square test confirmed that severe and fatal respiratory events are not distributed randomly across age classes (χ² = 294.09, p < 0.001, Cramér's V = 0.14). While the effect size is modest — indicating that age alone does not fully determine outcome — the association is robust and replicates the pattern reported by Palacios et al. (2011) following the fatal HMPV outbreak in mountain gorillas.
+
+3. `Tourism-Linked Events Are More Severe Than Background Illness`
+Tourism-attributed respiratory events showed significantly higher severity scores than background seasonal illness (Mann-Whitney U = 24,904,593.5, p < 0.001, r = 0.16). Though the effect size is small, the directional finding is consistent with Grützmacher et al. (2018): human respiratory pathogens, to which gorillas have no prior immunity, produce more severe clinical outcomes than endemic seasonal pathogens.
+
+4. `Same-Day Tourist Symptoms Show a Counterintuitive Negative Correlation — the 7-Day Lag is the Biologically Meaningful Signal`
+Spearman correlation between daily symptomatic tourist counts and same-day gorilla illness events was negative (ρ = −0.118, p < 0.001), likely reflecting seasonal confounding — tourist peaks coincide with dry seasons when gorilla background illness is naturally lower. The biologically meaningful window is the 7–14 day incubation lag. Lag-window analysis in Notebook 04 identifies the peak transmission lag, providing the correct temporal signal for conservation health policy.
+
+5. `Masking Compliance Shows No Statistically Significant Association with Gorilla Illness Rates`
+Annual masking compliance rate was not significantly correlated with gorilla respiratory event counts (ρ = 0.25, p = 0.517). This null result is expected given the limited statistical power of 9 years of annual data. It does not disprove the protective effect of masking — it reflects that annual aggregate data is too coarse to detect a protocol-level signal that operates at the individual visit level.
+
+6. `Logistic Regression Model Achieves Near-Perfect Discrimination (AUC = 0.984)`
+A balanced logistic regression classifier trained on 14,877 events and evaluated on 4,959 held-out events achieved a test AUC of 0.984 (5-fold CV: 0.984 ± 0.0004), indicating near-perfect discrimination between tourism-attributed and background illness events. The dominant predictor was the number of symptomatic tourists within the exposure window (OR = 339,305), confirming that direct symptomatic contact — not background tourist volume — drives attribution risk. Annual masking compliance was protective (OR = 0.85), and wet long-season events showed slightly reduced attribution risk (OR = 0.87), consistent with reduced tourism pressure during heavy rainfall periods.
+
+> ⚠️ **Model Limitation:** Policy scenario simulations were uninformative due to the extreme dominance of the symptomatic tourist window feature. All scenarios returned attribution probabilities indistinguishable from 100%, indicating that the logistic regression is not an appropriate tool for marginal policy effect estimation in this context. Future work should apply causal inference methods (e.g., do-calculus or counterfactual simulation) to properly quantify intervention impacts.
 
 ---
 
