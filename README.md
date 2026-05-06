@@ -163,7 +163,7 @@ code .
 ---
 
 ## ⚠️ **Data Transparency Notice:** 
-> No comprehensive public dataset combining tourist respiratory screening records and gorilla health events exists. The datasets in this project are **synthetic but calibrated** to published epidemiological literature from the Virunga Massif and Bwindi Impenetrable Forest field studies. All parameters are referenced and documented in `data/README.txt`. This approach is standard in conservation epidemiology for modeling and protocol validation purposes.
+> No comprehensive public dataset combining tourist respiratory screening records and mountain gorilla health events that is available to the public, because we need to obey privacy of people. The datasets in this project are **synthetic but calibrated** to published epidemiological literature from the Virunga Massif and Bwindi Impenetrable Forest field studies. All parameters are referenced and documented in `data/README.txt`. This approach is standard in conservation epidemiology for modeling and protocol validation purposes.
 >
 > For real gorilla data, apply at: [https://gorillafund.org/science/](https://gorillafund.org/what-we-do/scientific-research/)
 ---
