@@ -144,7 +144,7 @@ code .
 | `06` | Risk modeling (logistic regression) | Model coefficients, ROC |
 | `07` | Final dashboard visualizations | `outputs/figures/*.png` |
 
-> **Always run Notebook 01 first** — it generates the data all other notebooks depend on.
+
 
 ---
 
