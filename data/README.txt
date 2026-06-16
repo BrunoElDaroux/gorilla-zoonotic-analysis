@@ -5,7 +5,6 @@
 
 ALTERNATIVE DATASETS 
 ---------------------
-Other Public datasets:
 
 1. GBIF — Mountain Gorilla Occurrence Records
    URL: https://www.gbif.org/species/5219404
