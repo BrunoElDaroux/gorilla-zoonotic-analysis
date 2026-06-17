@@ -2,7 +2,6 @@
 Gorilla Zoonotic Disease Transmission Analysis
 ==============================================
 Source package containing reusable modules for:
-  - Synthetic data generation (data_generator.py)
   - Temporal linkage analysis (linkage.py)
   - Statistical utilities (stats_utils.py)
   - Visualization utilities (viz_utils.py)
@@ -10,7 +9,7 @@ Source package containing reusable modules for:
 Usage in notebooks:
     import sys
     sys.path.append('..')  # if running from notebooks/
-    from src.data_generator import GorillaDataGenerator
+    from src.data_used import GorillaData
 """
 
 __version__ = "1.0.0"
