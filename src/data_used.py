@@ -1,16 +1,14 @@
 """
-data_generator.py
+data_used.py
 =================
-Synthetic data generation engine for the Human-to-Gorilla Zoonotic Disease
-Transmission Risk Analysis project.
 
 All parameters are calibrated to published epidemiological literature.
 See data/README.txt for full citations.
 
 Usage:
-    from src.data_generator import GorillaDataGenerator
-    gen = GorillaDataGenerator(seed=42)
-    gen.generate_all(output_dir='data/raw/')
+    from src.data_used import GorillaData
+    used = GorillaData(seed=42)
+    used_all(output_dir='data/raw/')
 """
 
 import os
@@ -136,7 +134,7 @@ INCUBATION_MIN_DAYS = 2
 INCUBATION_MAX_DAYS = 14
 
 
-class GorillaDataGenerator:
+class GorillaData:
     """
     Generates five interlinked synthetic datasets simulating a multi-year
     gorilla health surveillance program.
@@ -168,9 +166,9 @@ class GorillaDataGenerator:
     # ─────────────────────────────────────────
     #  1. GORILLA DEMOGRAPHICS
     # ─────────────────────────────────────────
-    def generate_demographics(self) -> pd.DataFrame:
+    def demographics(self) -> pd.DataFrame:
         """
-        Generate a realistic gorilla population roster.
+       gorilla population roster.
         ~185 individuals across 6 social groups.
         """
         records = []
@@ -339,9 +337,9 @@ class GorillaDataGenerator:
     # ─────────────────────────────────────────
     #  2. SEASONAL CLIMATE DATA
     # ─────────────────────────────────────────
-    def generate_climate_data(self) -> pd.DataFrame:
+    def climate_data(self) -> pd.DataFrame:
         """
-        Generate daily climate data for the Virunga region (2015–2023).
+        daily climate data for the Virunga region (2015–2023).
         Rwanda Meteorological Agency baseline: Volcanoes NP, ~2,800m ASL.
         """
         records = []
@@ -404,9 +402,9 @@ class GorillaDataGenerator:
     # ─────────────────────────────────────────
     #  3. TOURIST VISIT LOGS + HEALTH RECORDS
     # ─────────────────────────────────────────
-    def generate_tourist_visits(self) -> tuple[pd.DataFrame, pd.DataFrame]:
+    def tourist_visits(self) -> tuple[pd.DataFrame, pd.DataFrame]:
         """
-        Generate tourist visit logs and linked health screening records.
+        tourist visit logs and linked health screening records.
 
         Rules applied:
           - Max 8 tourists per group per day (RDB regulation)
@@ -563,7 +561,7 @@ class GorillaDataGenerator:
     # ─────────────────────────────────────────
     #  4. GORILLA HEALTH EVENTS
     # ─────────────────────────────────────────
-    def generate_gorilla_health_events(self) -> pd.DataFrame:
+    def gorilla_health_events(self) -> pd.DataFrame:
         """
         Generate gorilla illness events, seeding some in the wake of
         tourist symptomatic visits and others from background/seasonal causes.
