@@ -34,7 +34,7 @@ ALTERNATIVE DATASETS
    Access: Open access
 
 
-DATASETS GENERATED (data/raw/)
+DATASETS USED (data/raw/)
 --------------------------------
 
 1. tourist_health_records.csv
