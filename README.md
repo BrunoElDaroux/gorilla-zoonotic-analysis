@@ -50,12 +50,12 @@ A balanced logistic regression classifier trained on 14,877 events and evaluated
 gorilla-zoonotic-analysis/
 │
 ├── README.md                        
-├── .gitignore                       ← Git ignore rules
-├── requirements.txt                 ← Python package dependencies
-├── environment.yml                  ← Conda environment spec
+├── .gitignore                    
+├── requirements.txt             
+├── environment.yml                 
 │
 ├── data/
-│   ├── README.txt                   ← Data sources, parameters, references
+│   ├── README.txt                   
 │   ├── raw/                         
 │   │   ├── tourist_health_records.csv
 │   │   ├── gorilla_health_events.csv
