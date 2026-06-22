@@ -8,7 +8,7 @@ Source package containing reusable modules for:
 
 Usage in notebooks:
     import sys
-    sys.path.append('..')  # if running from notebooks/
+    sys.path.append('..')  
     from src.data_used import GorillaData
 """
 
