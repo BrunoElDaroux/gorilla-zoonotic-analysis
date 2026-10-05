@@ -136,4 +136,4 @@ gorilla-zoonotic-analysis/
 
 ## Author
 
-*Former Data Entry with research experience at the Dian Fossey Gorilla Fund.*
+*A Former Data Entry Intern with research experience at the Dian Fossey Gorilla Fund.*
