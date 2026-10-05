@@ -1,5 +1,65 @@
 # Human-to-Gorilla Zoonotic Disease Transmission Risk Analysis
 
+A computational research prototype exploring how data science could be used to investigate potential zoonotic disease risks at the human–mountain gorilla interface.
+
+## ⚠️ Data Transparency Notice
+
+The datasets used in this project are **synthetic** and were created for portfolio development, analytical practice, and methodological demonstration.
+
+No DFGF internal database, confidential record, or row-level field data was used. Published scientific literature was used to inform the biological context, variables, and assumptions; the synthetic data should therefore **not be interpreted as real observations or empirical findings**.
+
+## Research Inspiration
+
+This project is an **analytical prototype for a research question that has not yet been empirically investigated through this workflow**.
+
+If an appropriately authorized study is conducted and suitable real-world data become available, this type of analytical pipeline could be adapted, tested, and validated using the actual observations.
+
+The current results demonstrate the **method and workflow**, not confirmed disease-transmission patterns.
+
+## Data Access and Institutional Authorization
+
+Any future analysis involving **non-public or institutionally controlled DFGF data** would require the appropriate authorization from DFGF and compliance with applicable data-access, research, ethical, and regulatory requirements.
+
+This repository does not provide access to, claim ownership of, or grant permission to use DFGF data.
+
+## Analytical Workflow
+
+The project demonstrates:
+
+- Data preparation and quality control
+- Exploratory data analysis
+- Statistical modeling
+- Risk analysis and visualization
+- Reproducible research workflows
+
+## Limitations
+
+Because the current datasets are synthetic:
+
+- Results do not represent actual DFGF observations.
+- Findings cannot be used to estimate real-world transmission risk.
+- Any future empirical study would require real data, validation, and appropriate research authorization.
+
+## Project Status
+
+**Status:** Synthetic-data research prototype / proposed analytical framework.
+
+## Disclaimer
+
+This repository is an independent technical and research project. It does not represent an official DFGF study, dataset, or institutional finding.
+
+
+
+
+
+
+
+
+
+
+
+# Human-to-Gorilla Zoonotic Disease Transmission Risk Analysis
+
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
