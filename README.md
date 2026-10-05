@@ -1,62 +1,3 @@
-# Human-to-Gorilla Zoonotic Disease Transmission Risk Analysis
-
-A computational research prototype exploring how data science could be used to investigate potential zoonotic disease risks at the human–mountain gorilla interface.
-
-## ⚠️ Data Transparency Notice
-
-The datasets used in this project are **synthetic** and were created for portfolio development, analytical practice, and methodological demonstration.
-
-No DFGF internal database, confidential record, or row-level field data was used. Published scientific literature was used to inform the biological context, variables, and assumptions; the synthetic data should therefore **not be interpreted as real observations or empirical findings**.
-
-## Research Inspiration
-
-This project is an **analytical prototype for a research question that has not yet been empirically investigated through this workflow**.
-
-If an appropriately authorized study is conducted and suitable real-world data become available, this type of analytical pipeline could be adapted, tested, and validated using the actual observations.
-
-The current results demonstrate the **method and workflow**, not confirmed disease-transmission patterns.
-
-## Data Access and Institutional Authorization
-
-Any future analysis involving **non-public or institutionally controlled DFGF data** would require the appropriate authorization from DFGF and compliance with applicable data-access, research, ethical, and regulatory requirements.
-
-This repository does not provide access to, claim ownership of, or grant permission to use DFGF data.
-
-## Analytical Workflow
-
-The project demonstrates:
-
-- Data preparation and quality control
-- Exploratory data analysis
-- Statistical modeling
-- Risk analysis and visualization
-- Reproducible research workflows
-
-## Limitations
-
-Because the current datasets are synthetic:
-
-- Results do not represent actual DFGF observations.
-- Findings cannot be used to estimate real-world transmission risk.
-- Any future empirical study would require real data, validation, and appropriate research authorization.
-
-## Project Status
-
-**Status:** Synthetic-data research prototype / proposed analytical framework.
-
-## Disclaimer
-
-This repository is an independent technical and research project. It does not represent an official DFGF study, dataset, or institutional finding.
-
-
-
-
-
-
-
-
-
-
 
 # Human-to-Gorilla Zoonotic Disease Transmission Risk Analysis
 
@@ -77,6 +18,18 @@ This project analyzes the risk and patterns of **human-to-gorilla zoonotic disea
 2. Which gorilla age categories carry the highest disease susceptibility?
 3. What proportion of gorilla respiratory events are attributable to tourism vs. seasonal/environmental factors?
 4. What evidence supports the Dian Fossey Gorilla Fund's 7-meter distance rule and pre-visit screening protocols?
+
+---
+
+## ⚠️ Data Transparency
+
+The dataset used in this project is **fully synthetic** and was created strictly for **educational, analytical, and portfolio purposes**. It does not represent real field observations, clinical records, or verified measurements from mountain gorillas.
+
+The variables, biological context, and assumptions were informed by published scientific literature and the known ecology of mountain gorillas. However, **all observations and analytical findings presented here are simulated and should not be interpreted as real-world results**.
+
+This project is intended to demonstrate how a study of this nature could be structured and analyzed. **If a comparable study were conducted using appropriate real-world data from an authorized institution, the resulting analysis could follow a similar analytical approach and may produce outputs structured like those demonstrated here.**
+
+Any future research involving real institutional or field data would require the appropriate **data-access permission, research authorization, and applicable ethical or regulatory approvals** from the relevant institution.
 
 ---
 
@@ -183,4 +136,4 @@ gorilla-zoonotic-analysis/
 
 ## Author
 
-*Data Technician with research experience at the Dian Fossey Gorilla Fund, building end-to-end computational pipelines across four domains: spatial movement ecology (GeoPandas, KDE, permutation testing), population genetics (CERVUS microsatellite LOD scoring, Queller-Goodnight kinship estimation), machine learning survival analysis (Random Forest, temporal cross-validation), and conservation epidemiology (logistic regression, SciPy hypothesis testing, temporal linkage). Technical stack: Python · R · SQL · scikit-learn · SciPy · GeoPandas · Git. All work is grounded in longitudinal biological datasets with direct conservation policy implications across the Virunga Massif: Rwanda, Uganda, and DRC.*
+*Former Data Entry with research experience at the Dian Fossey Gorilla Fund.*
